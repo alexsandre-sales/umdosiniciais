@@ -1,0 +1,34 @@
+.sobre-web-design {
+  justify-content: space-between;
+  align-items: center;
+
+  article {
+    width: 250px;
+
+    h1 {
+      font-size: $font-h1;
+      line-height: 90%;
+      font-weight: 400;
+      color: $cor-texto-titulo;
+    }
+
+    h2 {
+      color: $cor-primaria;
+      font-size: $font-h2;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      line-height: 200%;
+    }
+
+    p {
+      color: $cor-paragrafo;
+      font-weight: 400;
+      margin: 10px 0 40px 0;
+    }
+  }
+  figcaption {
+    img {
+      width: 700px;
+    }
+  }
+}
